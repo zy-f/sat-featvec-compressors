@@ -1,0 +1,9 @@
+# common
+__pycache__/
+.ipynb_checkpoints
+
+# project specific
+wandb/
+data/
+ckpts/
+compress_models/
