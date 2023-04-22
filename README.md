@@ -2,7 +2,8 @@
 ### Author: Christopher Polzak (zy-f)
 
 EE269 (Winter 2023) final project.
-Experiments on compression methods for satellite feature vectors
+
+Experiments on compression methods for satellite feature vectors.
 
 [Paper](EE269_FinalProjectReport.pdf) | [Poster](EE269_Final_Poster-fixed.pdf)
 
