@@ -14,3 +14,6 @@ Through our experiments, we find that:
 - Simple compression schemes such as PCA and naive uniform quantization with clipping are more than sufficient to keep up with and even surpass the performance of neural network-based compression schemes
 - Uniform quantization from 32-bit float to 8-bit integer is effectively lossless
 - PCA and uniform quantization (as compared to NN compressors) have greater gains in performance when using deeper downstream models, suggesting there is more latent information to be tapped into
+
+## Errata
+- The paper states that quantization limits/clamping were set to lose less than .05% of data. In reality, .05 was a fraction, so clamping was set to lose less than 5% of data.
